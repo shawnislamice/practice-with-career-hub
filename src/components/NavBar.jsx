@@ -38,6 +38,14 @@ const NavBar = () => {
                 ? "bg-gradient-to-r from-blue-400 font-semibold to-purple-600 bg-clip-text text-transparent"
                 : ""
             }
+            to="/">
+           Home
+          </NavLink><NavLink
+            className={({ isActive }) =>
+              isActive
+                ? "bg-gradient-to-r from-blue-400 font-semibold to-purple-600 bg-clip-text text-transparent"
+                : ""
+            }
             to="/statistics">
             Statistics
           </NavLink>

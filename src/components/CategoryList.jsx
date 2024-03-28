@@ -5,7 +5,7 @@ import social from "../assets/social-media-1.png";
 
 const CategoryList = () => {
   return (
-    <div className="my-5">
+    <div className="my-5 ">
       <div className="text-[#1A1919] my-5">
         <h1 className="text-3xl text-center font-bold">Job Category List</h1>
         <p className="text-center opacity-80 py-3">
@@ -13,7 +13,7 @@ const CategoryList = () => {
           need. Its your future
         </p>
       </div>
-      <div className="flex md:flex-row flex-col md:gap-0 gap-4 justify-around items-center">
+      <div className="flex  md:flex-row flex-col md:gap-0 gap-4 justify-around items-center">
         <div className="bg-base-300 py-4 px-6 rounded-lg w-[280px]">
           <div>
             <img src={accounts} alt="" />
@@ -23,7 +23,7 @@ const CategoryList = () => {
             <p>300 Jobs Available</p>
           </div>
         </div>
-        <div className="bg-base-300 py-4 px-6 rounded-lg w-[280px]">
+        <div className="bg-base-300 py-4 px-6 rounded-lg w-[280px] ">
           <div>
             <img src={business} alt="" />
           </div>
