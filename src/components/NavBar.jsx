@@ -53,7 +53,7 @@ const NavBar = () => {
           <NavLink
             className={({ isActive }) =>
               isActive
-                ? "bg-gradient-to-r from-blue-400 font-semibold to-purple-600 bg-clip-text text-transparent"
+                ? "bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent font-semibold "
                 : ""
             }
             to="/blogs">
@@ -62,7 +62,9 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn text-white bg-gradient-to-r from-blue-400 to-purple-600">
+          Start Applying
+        </a>
       </div>
     </div>
   );
