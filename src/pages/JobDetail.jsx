@@ -36,7 +36,7 @@ const handleApplyNow = (jobItem) => {
       <h1 className="text-center text-3xl font-extrabold md:py-20 py-5">
         Job Details{" "}
       </h1>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between ">
         <div className="md:w-[60%] space-y-4 opacity-80">
           <p>
             <b>Job Description: </b>
@@ -76,7 +76,7 @@ const handleApplyNow = (jobItem) => {
 
             <h3 className="font-extrabold">Contact Information</h3>
             <hr className="" />
-            <div className="flex gap-2 items-center opacity-80">
+            <div className="flex  gap-2 items-center opacity-80">
               <CiPhone size={20}></CiPhone>
               <p>
                 <b>Phone:</b> {contact_information.phone}

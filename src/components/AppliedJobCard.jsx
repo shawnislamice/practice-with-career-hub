@@ -21,7 +21,7 @@ const AppliedJobCard = ({ job }) => {
   } = job;
   return (
     <div>
-      <div className="space-y-2 flex items-center justify-around border p-3 py-6 shadow-md rounded-lg">
+      <div className="space-y-2 flex md:flex-row flex-col justify-center items-center md:justify-around border p-3 py-6 shadow-md rounded-lg">
         <div className="">
           <img
             className="  object-cover  w-[116px]"

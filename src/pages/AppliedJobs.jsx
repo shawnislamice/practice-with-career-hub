@@ -47,7 +47,7 @@ const AppliedJobs = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="flex flex-col gap-5">
         {jobs.map((job, index) => (
           <AppliedJobCard job={job} key={index}></AppliedJobCard>
         ))}
